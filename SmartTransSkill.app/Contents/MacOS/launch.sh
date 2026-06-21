@@ -46,7 +46,7 @@ fi
 osascript <<EOF
 tell application "Terminal"
     activate
-    do script "export PATH=\"\$HOME/.npm-global/bin:\$PATH\"; cd '$PROJECT_DIR' && exec '$CLAUDE_PATH' '/smart-trans'"
+    do script "export PATH=\"\$HOME/.npm-global/bin:\$PATH\"; cd '$PROJECT_DIR' && exec '$CLAUDE_PATH' '启动smart-trans技能，我要查英语单词'"
 end tell
 EOF
 
