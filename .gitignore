@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon cache
+Icon
+
+# Claude Code local settings (contains personal tokens/permissions)
+.claude/settings.local.json
+
+# Build artifacts
+SmartTransSkill.app/Contents/Resources/icon.iconset/
+
+# Thumbnails
+._*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
